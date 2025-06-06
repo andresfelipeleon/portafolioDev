@@ -1,0 +1,16 @@
+/*Habilidades circulos*/
+
+.container-skills{
+  color: #032551;
+}
+.card.mb-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.card-img-top{
+  width: 100px;
+}
+

@@ -1,0 +1,48 @@
+/* Fuente global */
+body{
+  background-color: #d5e1f2;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-medium-gray {
+  background-color: #96bff8;
+}
+
+.aboutMe{
+  color: #032551;
+}
+
+
+.fs-5 {
+  font-size: 1.19rem!important;
+}
+
+
+.btnRedes{
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .center-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 2px;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shourt icon" href="/img/iconPorfolio.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/app.css" />
+    <link rel="stylesheet" href="styles/habilidades.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/formacion-academica.css" />
+    <link rel="stylesheet" href="styles/proyecto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Andrés Zuleta</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-sm sticky-top"
+      style="background-color: #032551"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#opciones"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre Mi </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formacion-academica"
+              >Formación Académica</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades-blandas"
+              >Habilidades blandas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          &nbsp;
+        </ul>
+      </div>
+    </nav>
+
+    <main class="mb-3 px-2 py-4 bg-medium-gray">
+      <section
+        class="aboutMe container flex justify-content-center"
+        id="sobre-mi"
+      >
+        <div class="row row-cols-12 mx-0">
+          <div
+            class="col-12 col-md-7 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h2
+              class="fs-2 fw-bold w-100 text-center p-3 text-uppercase title-item"
+            >
+              Sobre Mi
+            </h2>
+            <p class="fs-5 fw-semibold text-justify dark-color-white">
+              Soy Andrés Felipe León Zuleta, Desarrollador Front-End 
+              con 6 meses de experiencia. Comprometido con ofrecer soluciones
+              innovadoras y cumplir los objetivos del equipo.
+            </p>        
+          </div>
+          <div
+            class="col-12 col-md-5 d-flex align-items-center justify-content-center position-relative"
+          >
+            <div class="text-center my-picture">
+              <img
+                src="./img/perfil.JPG"
+                alt="Andres Zuleta"
+                class="w-50 position-relative rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 center-buttons mx-2">
+          <a
+            target="_blank"
+            type="button"
+            class="BtnRedes btn btn-primary"
+            href="./Cv/CurriculumAndresFelipeLeon.pdf"
+            title="Cv"
+          >
+            Descargar cv
+          </a>
+
+          <a
+
+
+            target="_blank"
+            type="button"
+            class="BtnRedes btn btn-primary mx-2"
+            href="https://www.linkedin.com/in/andr%C3%A9s-felipe-le%C3%B3n-zuleta-8168371b9/"
+            title="Linkedin"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-linkedin"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+              ></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+            </svg>
+          </a>
+
+
+          <a
+          target="_blank"
+          type="button"
+          class="BtnRedes btn btn-primary mx-2"
+          href="mailto:aleonzuleta@gmail.com"
+          title="Contáctame"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-mail-filled"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"
+              stroke-width="0"
+              fill="currentColor"
+            ></path>
+            <path
+              d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"
+              stroke-width="0"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </a>
+
+        </div>
+      </section>
+    </main>
+
+    <section
+      class="container-academy container position-relative d-flex justify-content-evenly align-items-center flex-wrap p-2"
+      id="formacion-academica"
+    >
+      <h2
+        class="fs-1 fw-bold w-100 text-center p-3 mt-5 text-uppercase title-item"
+      >
+        Formación Académica
+      </h2>
+
+   
+       <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-75" src="./img/Unad.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Ingeniería en sistemas (Cursando).
+        </h3>
+      </div> 
+
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/senaLogo.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Tecnología en análisis y desarrollo de sistemas de información.
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/senaLogo.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Técnico en programación de software.
+        </h3>
+      </div>
+
+
+
+    </section>
+
+    <section
+      class="container-skills container position-relative d-flex justify-content-evenly align-items-center flex-wrap p-2"
+      id="habilidades"
+    >
+      <h2
+        class="fs-1 fw-bold w-100 text-center p-3 mt-5 text-uppercase title-item"
+      >
+        Habilidades
+      </h2>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/html5.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">HTML</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/css.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">CSS</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/js.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Javascript
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/Bootstrap.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">Bootstrap</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/vue.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">Vue</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/tailwind.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">Tailwind</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/wordpress.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">Wordpress</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/php.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">PHP</h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/git.svg" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">Git</h3>
+      </div>
+    </section>
+
+    <section
+      class="container-skills container position-relative d-flex justify-content-evenly align-items-center flex-wrap p-2"
+      id="habilidades-blandas"
+    >
+      <h2
+        class="fs-1 fw-bold w-100 text-center p-3 mt-5 text-uppercase title-item"
+      >
+        Habilidades Blandas
+      </h2>
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/comunicacion.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Comunicación
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/trabajo-equipo.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Trabajo en equipo
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/adaptabilidad.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Adaptabilidad
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/decisiones.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Toma de decisiones
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/organizacion.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Organización
+        </h3>
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-50" src="./img/creatividad.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-5 fw-semibold text-center dark-color-white">
+          Creatividad
+        </h3>
+      </div>
+    </section>
+    <section
+      class="container-skills container position-relative d-flex justify-content-evenly align-items-center flex-wrap p-2"
+      id="proyectos"
+    >
+      <h2
+        class="fs-1 fw-bold w-100 text-center p-3 mt-5 text-uppercase titleProyect"
+      >
+        Proyectos
+      </h2>
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-100" src="./img/proyectoEcommerce.png" />
+        </div>
+        <h3 class="fs-6 fw-semibold text-justify dark-color-white">
+          Ecommerce con carrito de compras.
+        </h3>
+        <ul class="fs-7">
+          <li>Vue.</li>
+          <li>Tailwind.</li>
+          <li>Javascript.</li>
+        </ul>
+        <a
+          target="_blank"
+          href="https://lleodev-ecommerce.netlify.app/"
+          class="btn btn-primary w-100"
+          >Ver proyecto</a
+        >
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-100" src="./img/calculadora.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-6 fw-semibold text-center dark-color-white">
+          Calculadora.
+        </h3>
+        <ul class="fs-7">
+          <li>Vue.</li>
+          <li>Bootstrap.</li>
+          <li>Javascript.</li>
+        </ul>
+        <a
+          href="https://calculadoravue.netlify.app/"
+          target="_blank"
+          class="btn btn-primary w-100"
+          >Ver proyecto</a
+        >
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-100" src="./img/listaElementos.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-6 fw-semibold text-center dark-color-white">
+          Lista de tareas.
+        </h3>
+        <ul class="fs-7">
+          <li>Vue.</li>
+          <li>Tailwind.</li>
+          <li>Javascript.</li>
+        </ul>
+        <a
+          href="https://listaelementosdev.netlify.app/"
+          target="_blank"
+          class="btn btn-primary w-100"
+          >Ver proyecto</a
+        >
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-100" src="./img/navarraLanguages.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-6 fw-semibold text-justify dark-color-white">
+          Sitio web institucional bilingüe, Navarra Languages School.
+        </h3>
+        <ul class="fs-7">
+          <li>Wordpress.</li>
+          <li>Elementor.</li>
+          <li>PHP</li>
+        </ul>
+        <a
+          href="https://navarralanguages.edu.co/en/"
+          target="_blank"
+          class="btn btn-primary w-100"
+          >Ver proyecto</a
+        >
+      </div>
+
+      <div class="soft-skill rounded p-4 shadow m-3 w-25">
+        <div class="img-soft-skill w-100 text-center">
+          <img class="w-100" src="./img/sistemaBiblioteca.png" />
+        </div>
+        &nbsp;
+        <h3 class="fs-6 fw-semibold text-justify dark-color-white">
+          Inventario Biblioteca.
+        </h3>
+        <ul class="fs-7">
+          <li>Php.</li>
+          <li>Bootstrap.</li>
+          <li>Javascript</li>
+          <li>Jquery</li>
+        </ul>
+        <a
+          href="https://bibliotecacabrerista.000webhostapp.com/apps/Proyecto/vistas/login.html"
+          target="_blank"
+          class="btn btn-primary w-100"
+          >Ver proyecto</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
